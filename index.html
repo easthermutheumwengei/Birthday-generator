@@ -20,32 +20,47 @@
                 <h3 class="heading">Akan Name Generator</h3>
                 <p>This website takes the date,gender,month and birth year of the user and generates the Akan name according to Ghana naming method.</p>
                 <form name="khanEntry">
-                    <!-- <div class="form-group">
-                        <label for="e">Select Birth date </label>
+                    <div class="form-group">
+                        <label for="f">Select Birth date </label>
                         <input type="date" class="form-control" id="data">
-                    </div> -->
-                    <form class="form-inline" action="">
-                        <div class="form-group">
-                            <label for="birthday">Date:</label>
-                            <input type="date" class="form-control" id="date" placeholder="date" name="date">
-                        </div>
-                        <!-- <div class="form-group">
-                            <label for="month">month:</label>
-                            <input type="month" class="form-control" id="pwd" placeholder="month" name="month">
-                        </div>
-                        <div class="form-group">
-                            <label for="year">year</label>
-                            <input type="year" class="form-control" id="year" placeholder="year" name="year">
-                        </div>
-                    </form> -->
-                        <!-- <div class="form-group">
-                        <select class="form-control " id="gender" name="gender">
-                            <option value="">Select your gender</option>
-                            <option value="Male">Male</option>
-                            <option value="Female">Female</option>
-                        </select>
                     </div>
+                    <!-- <form class="form-inline" action="">
+                    <div class="form-group">
+                        <label for="birthday">Date:</label>
+                        <input type="date" class="form-control" id="date" placeholder="date" name="date">
+                    </div> -->
+                    <!-- <div class="form-group">
+                        <label for="month">month:</label>
+                        <input type="month" class="form-control" id="pwd" placeholder="month" name="month">
+                    </div>
+                    <div class="form-group">
+                        <label for="year">year</label>
+                        <input type="year" class="form-control" id="year" placeholder="year" name="year">
+                    </div> -->
+
+                    <!-- <div class="form-group">
+                    <select class="form-control " id="gender" name="gender">
+                        <option value="">Select your gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
                 </form> -->
+
+                    <p>Please select your gender:</p>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label><br>
+                </form>
+                <!-- <div class="btns">
+                    <input type="button" class="btn btn-if" value="Get Akan Name" onclick="formValidation()">
+                    <input type="button" class="btn btn-primary" value="Reset" onclick="reset()">
+                </div>
+                <div class="results" id="hiden-display">
+                    <div id="display">
+        
+                    </div> -->
             </div>
         </div>
     </div>
