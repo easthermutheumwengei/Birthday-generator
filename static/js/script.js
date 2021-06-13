@@ -60,3 +60,8 @@ let day = ["Sunday",
 ];
 let maleNames = ["kwasi", "kwako", "kwabena", "kwaku", "yow", "kofi", "kwame"];
 let femaleNames = ["Akosua", "AdWOA", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+
+function dayOfBirth() {
+    let
+}
