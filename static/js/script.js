@@ -9,7 +9,7 @@ let formValidation = function() {
 
     if (dateData == "" || genderData == "") {
         unhideElement();
-        alert("Ensure all inputs are entered correctly to get your Khan name")
+        alert("fill in all the inputs")
         return false;
     } else {
 
