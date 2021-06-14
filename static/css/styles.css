@@ -1,16 +1,83 @@
-                body {
-                    background-color: rgb(121, 118, 115);
-                }
-                
-                .cont {
-                    margin: 15%;
-                    background-color: lightcyan;
-                    padding: 2rem 1rem 2rem 1rem;
-                    box-shadow: 0 0 5px 5px rgba(244, 245, 243, 0.747);
-                    border-radius: 8px;
-                }
-                
-                .heading {
-                    font-weight: 600;
-                    text-align: center;
-                }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #c4f511;
+}
+
+.content {
+    margin: 8%;
+    background-color: rgb(255, 255, 255);
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, .05);
+    border-radius: 10px;
+}
+
+.btns {
+    text-align: center;
+}
+
+.into-text {
+    font-style: normal;
+    font-weight: 600 !important;
+    text-align: center
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: #00ac96 !important;
+    border-style: solid !important;
+    border-width: 0 0 1px 0 !important;
+    padding: 0px !important;
+    color: #495057;
+    height: auto;
+    border-radius: 0;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+
+.results {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: #00ac96 !important;
+    border-style: solid !important;
+    border-width: 1 1 1px 0 !important;
+    padding: 5px !important;
+    color: #495057;
+    height: auto;
+    border-radius: 10px;
+    background-color: #fff;
+    background-clip: padding-box;
+    margin: 15px;
+}
+
+#hiden-display {
+    display: none
+}
+
+img {
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-class {
+    border-color: #00ac96;
+    color: #00ac96;
+}
+
+.btn-class:hover {
+    background-color: #00ac96;
+}
